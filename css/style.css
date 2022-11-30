@@ -19,6 +19,10 @@ body{
     color: var(--colorTextos);
     font-size: 1.2rem;
 }
+p{
+    padding: auto;
+    text-align: justify;
+}
 
 *{
     box-sizing: border-box;
@@ -35,12 +39,16 @@ h1{
 
 h2{
     font-family:var(--titulos);
-    color: var(--colorTextos);
+    color: green;
     font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
+
 }
 
+.parrafobanner{
+    text-align: center;
+}
 
 /*header*/
 /*utilizar las clases en css, se representa por un punto(.)
@@ -122,7 +130,7 @@ y en html se representan por id
 #home p{
     margin-top: 40px;
     color: white;
-    padding-left: 185px;
+    padding-left: 155px;
 }
 
 /*iconos de las redes sociales*/
